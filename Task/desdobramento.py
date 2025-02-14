@@ -18,24 +18,27 @@ def desdobramento(row):
     copiar(row['Data de Abertura'], date=True)
     time.sleep(2)
     pyautogui.hotkey('ctrl', 'v')
+    #Selecionar CNJ IMAGEM! <<<<<<<
     searchimage('numerodoprocesso','numerodoprocesso Encontrado!', 'numerodoprocesso não encontrado')
     copiar(row["Número do Processo"])
     pyautogui.hotkey('ctrl', 'v')
     time.sleep(1)
     searchimage('tipodedesdobramento', 'tipodedesdobramento encontrado','tipodedesdobramento não encontrado')
-    texto = "Reclamação Procon"
+    texto = "Ação de Indenização"
     pyperclip.copy(texto)
     pyautogui.hotkey('ctrl', 'v')
     time.sleep(2)
     click_and_fill('vazio2', 'caminho vazio2 encontrado!', "caminho vazio2 não enconrado")
     searchimage('Tribunal', 'tribunal encontrado!', 'tribunal não encontrado')
     time.sleep(1)
-    pya.write('Admin')
-    time.sleep(1)
-    searchimage('administrativo', 'administrativo Encontrado!', ' administrativo não encontrado!')
+    pya.write('TJ')
+    text = copiar(row["Foro"]).split("-")[1].strip()
+    pyperclip.copy(text)
+    time.sleep(3)
+    #searchimage('administrativo', 'administrativo Encontrado!', ' administrativo não encontrado!') provavelmnete deletar
     searchimage('juris', 'juris encontrado!', 'juris não encontrado')
     time.sleep(1)
-    pya.write('Proconsumidor')
+    pya.write('Proconsumidor') #Verificar como funcionar
     time.sleep(3)
     searchimage('UF','UF encontrado!', 'UF não encontrado!')
     time.sleep(3)
