@@ -36,7 +36,7 @@ task_path = base_path / "Task"
 
 
 def main(page: ft.Page):
-    page.title = "Automação do PROCON"
+    page.title = "Cadastro - Return&Ativos"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     log.info('automação iniciada')

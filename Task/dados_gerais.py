@@ -24,13 +24,17 @@ def dados_gerais(row):
     time.sleep(3)
     click_and_fill('data da citacao2', 'data citação 2 encontrada', 'data citação 2 não encontrada')
     pyautogui.hotkey('ctrl', 'v')
-    time.sleep(2)
+    time.sleep(3)
     searchimage('natureza', 'natureza Encontrado!', 'Campo natureza não encontrado!')
-    pya.write('PROCON')
+    texto = "AÇÕES PARA ACOMPANHAMENTO"
+    pyperclip.copy(texto)
+    time.sleep(2)
+    log.info('texto copiado: ' + texto)
+    pyautogui.hotkey('ctrl', 'v')
     time.sleep(2)
     searchimage('TipoAcao', 'tipo de ação Encontrado!', 'tipo de ação não encontrado!')
     time.sleep(2)
-    texto = "Reclamação Procon"
+    texto = "Indenizatória"
     pyperclip.copy(texto)
     log.info('texto copiado: ' + texto)
     pyautogui.hotkey('ctrl', 'v')
@@ -39,9 +43,9 @@ def dados_gerais(row):
     time.sleep(2)
     pya.press("backspace", presses=9)
     time.sleep(2)
-    pya.write('Admin')
+    pya.write('Especial')
     time.sleep(2)
-    searchimage('administrativo', 'administrativo Encontrado!', ' administrativo não encontrado!')
+    #searchimage('administrativo', 'administrativo Encontrado!', ' administrativo não encontrado!') PRCOURAR ESPECIAL
     nome_fornecedor = copiar(row["Fornecedor"].upper())
     nome_fornecedor = nome_fornecedor.upper()
     print(nome_fornecedor.upper())
@@ -54,7 +58,7 @@ def dados_gerais(row):
     time.sleep(3)
     pya.write('EMPRESAS TRIBANCO')
     time.sleep(8)
-    searchimage('admProcess', 'admProcess Encontrado!', ' AdmProcessx não encontrado!')
+    #searchimage('admProcess', 'admProcess Encontrado!', ' AdmProcessx não encontrado!') Judicial
     pyautogui.scroll(-100)
     searchimage('Nota', 'Nota Encontrado!', ' nota não encontrado!')
     copiar(row["Relatos"])
