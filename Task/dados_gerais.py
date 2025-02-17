@@ -42,10 +42,9 @@ def dados_gerais(row):
     searchimage('procedimento', 'procedimento Encontrado!', ' procedimento não encontrado!')
     time.sleep(2)
     pya.press("backspace", presses=9)
-    time.sleep(2)
+    time.sleep(3)
     pya.write('Especial')
-    time.sleep(2)
-    #searchimage('administrativo', 'administrativo Encontrado!', ' administrativo não encontrado!') PRCOURAR ESPECIAL
+    time.sleep(3)
     nome_fornecedor = copiar(row["Fornecedor"].upper())
     nome_fornecedor = nome_fornecedor.upper()
     print(nome_fornecedor.upper())
@@ -58,7 +57,6 @@ def dados_gerais(row):
     time.sleep(3)
     pya.write('EMPRESAS TRIBANCO')
     time.sleep(8)
-    #searchimage('admProcess', 'admProcess Encontrado!', ' AdmProcessx não encontrado!') Judicial
     pyautogui.scroll(-100)
     searchimage('Nota', 'Nota Encontrado!', ' nota não encontrado!')
     copiar(row["Relatos"])

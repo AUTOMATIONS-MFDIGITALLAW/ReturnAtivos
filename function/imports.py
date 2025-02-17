@@ -10,7 +10,7 @@ from end import endpoints
 from function.click_and_fill import click_and_fill
 from function.imgfuction import searchimage, search_image_time
 from function.read_dataframe import copiar, copiar2, extrair_comarca, date_dois_dias
-from function.fornecedor import FornecedorSelector
+from function.fornecedor import FornecedorSelector, CreditoSelector
 from function.webdriver import WebDriverManager
 from Task.desdobramento import desdobramento
 from Task.cadastro import cadastro

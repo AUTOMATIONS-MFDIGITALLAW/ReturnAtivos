@@ -81,6 +81,9 @@ IMG = {
     'unidadeorga': get_resource_path('img/unidadeorga2.png'),
     'seta3': get_resource_path('img/seta3.png'),
     'setadupla': get_resource_path('img/setadupla.png'),
+    'CNJ': get_resource_path('img/CNJ.png'),
+    'Responsavel': get_resource_path('img/Responsavel.png'),
+    'classpre': get_resource_path('img/classpre.png'),
 }
 
 POSITION = {
