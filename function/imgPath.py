@@ -84,6 +84,8 @@ IMG = {
     'CNJ': get_resource_path('img/CNJ.png'),
     'Responsavel': get_resource_path('img/Responsavel.png'),
     'classpre': get_resource_path('img/classpre.png'),
+    'Laura': get_resource_path('img/Laura.png'),
+    'Lais': get_resource_path('img/Lais.png'),
 }
 
 POSITION = {
