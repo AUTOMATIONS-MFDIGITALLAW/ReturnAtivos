@@ -1,0 +1,33 @@
+2025-03-18T09:34:00.380332-0300 - INFO - Automação iniciada
+2025-03-18T09:34:10.113813-0300 - SUCCESS - Pasta de PDFs selecionada: C:/Users/Usuario/Desktop/pasta teste/Desktop
+2025-03-18T09:34:11.531087-0300 - SUCCESS - Encontrados 5 arquivos PDF
+2025-03-18T09:39:13.789643-0300 - INFO - Automação iniciada
+2025-03-18T09:39:18.553810-0300 - SUCCESS - Pasta de PDFs selecionada: C:/Users/Usuario/Desktop/pasta teste/Desktop
+2025-03-18T09:39:20.106053-0300 - SUCCESS - Encontrados 5 arquivos PDF na pasta: C:/Users/Usuario/Desktop/pasta teste/Desktop
+2025-03-18T09:39:20.106053-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\0006314-41.2024.8.26.0609.pdf
+2025-03-18T09:39:20.107053-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1014019-33.2024.8.26.0008.pdf
+2025-03-18T09:39:20.125289-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1033888-36.2020.8.26.0100.pdf
+2025-03-18T09:39:20.125289-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1106678-13.2023.8.26.0100.pdf
+2025-03-18T09:39:20.125289-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1110569-11.2024.8.26.0002.pdf
+2025-03-18T09:39:41.182863-0300 - SUCCESS - Planilha Importada: C:/Users/Usuario/Desktop/pasta teste/Desktop/PREENCHIMENTO.xlsx
+2025-03-18T09:39:45.874105-0300 - INFO - Automação fechada
+2025-03-18T09:59:21.054921-0300 - INFO - Automação iniciada
+2025-03-18T10:07:38.224737-0300 - INFO - Automação iniciada
+2025-03-18T10:07:57.218513-0300 - SUCCESS - Pasta de PDFs selecionada: C:/Users/Usuario/Desktop/pasta teste/Desktop
+2025-03-18T10:07:58.159226-0300 - SUCCESS - Encontrados 5 arquivos PDF na pasta: C:/Users/Usuario/Desktop/pasta teste/Desktop
+2025-03-18T10:07:58.159226-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\0006314-41.2024.8.26.0609.pdf
+2025-03-18T10:07:58.159226-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1014019-33.2024.8.26.0008.pdf
+2025-03-18T10:07:58.160683-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1033888-36.2020.8.26.0100.pdf
+2025-03-18T10:07:58.160683-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1106678-13.2023.8.26.0100.pdf
+2025-03-18T10:07:58.160683-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1110569-11.2024.8.26.0002.pdf
+2025-03-18T10:08:01.965786-0300 - SUCCESS - Planilha Importada: C:/Users/Usuario/Desktop/pasta teste/Desktop/PREENCHIMENTO.xlsx
+2025-03-18T10:20:05.543403-0300 - INFO - Automação iniciada
+2025-03-18T10:20:11.337364-0300 - SUCCESS - Planilha Importada: C:/Users/Usuario/Desktop/pasta teste/Desktop/PREENCHIMENTO.xlsx
+2025-03-18T10:20:14.195153-0300 - SUCCESS - Pasta de PDFs selecionada: C:/Users/Usuario/Desktop/pasta teste/Desktop
+2025-03-18T10:20:14.757995-0300 - SUCCESS - Encontrados 5 arquivos PDF na pasta: C:/Users/Usuario/Desktop/pasta teste/Desktop
+2025-03-18T10:20:14.757995-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\0006314-41.2024.8.26.0609.pdf
+2025-03-18T10:20:14.757995-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1014019-33.2024.8.26.0008.pdf
+2025-03-18T10:20:14.757995-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1033888-36.2020.8.26.0100.pdf
+2025-03-18T10:20:14.757995-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1106678-13.2023.8.26.0100.pdf
+2025-03-18T10:20:14.757995-0300 - INFO - PDF encontrado: C:/Users/Usuario/Desktop/pasta teste/Desktop\1110569-11.2024.8.26.0002.pdf
+2025-03-18T10:20:19.045602-0300 - WARNING - Usuário e senha devem ser preenchidos!

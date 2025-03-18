@@ -87,6 +87,9 @@ IMG = {
     'Laura': get_resource_path('img/Laura.png'),
     'Lais': get_resource_path('img/Lais.png'),
     'Requisitante': get_resource_path('img/Requisitante.png'),
+    'Selecionar_arquivo': get_resource_path('img/Selecionar_arquivo.png'),
+    'Dialog': get_resource_path('img/Dialog.png'),
+    'Abrir': get_resource_path('img/Abrir.png'),
 }
 
 POSITION = {

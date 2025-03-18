@@ -1,4 +1,4 @@
-from pyautogui import click
+from pyautogui import click, sleep
 
 from function.imports import (
     time,
@@ -13,10 +13,13 @@ from function.imports import (
 )
 
 def requisicoes(row):
+    sleep(1)
     searchimage('requisicoes','requisicoes encontrado','requisicoes não encontrado')
+    sleep(1)
     searchimage('adicionar', 'adicionar encontrado', 'adicionar não encontrado')
+    sleep(1)
     searchimage('titulo', 'titulo encontrado', 'titulo não encontrado')
-    time.sleep(2)
+    sleep(2)
     pya.write(row(['Autor]']).upper() + ' ' + row['Cpf/Cpnj'])
     time.sleep(3)
     searchimage('tipoderequisicao','tipoderequisicao encontrado','tipoderequisicao não encontrado')
@@ -58,3 +61,4 @@ def requisicoes(row):
     time.sleep(2)
     searchimage('salvar','salvar encontrado', 'salvar não encontrado')
 
+#Ver financeiro, valor da causa dados gerais.
